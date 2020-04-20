@@ -8,7 +8,5 @@
   },
   "author": "max da silva, pablo mahave",
   "license": "ISC",
-  "dependencies": {
-    "csvjson": "^5.1.0"
-  }
+  "dependencies": {}
 }
