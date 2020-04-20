@@ -28,7 +28,7 @@ async function mergeDatasets() {
     geocountries["features"].forEach(element => {
         let countryName = element["properties"]["ADMIN"].toLowerCase();
         let resultByCountry = refusals[countryName];
-        element["properties"]["refusals"] = resultByCountry;
+        element["properties"]["refusals"] = parseFloat(resultByCountry);
     });
     // console.log(geocountries["features"][1]);
 
